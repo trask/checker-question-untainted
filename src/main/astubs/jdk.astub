@@ -1,0 +1,10 @@
+import org.checkerframework.checker.tainting.qual.PolyTainted;
+
+package java.lang;
+
+public class StringBuilder {
+
+    @PolyTainted StringBuilder append(@PolyTainted String s) @PolyTainted;
+
+    @PolyTainted String toString() @PolyTainted;
+}

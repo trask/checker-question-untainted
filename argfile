@@ -1,0 +1,1 @@
+-processor org.checkerframework.checker.tainting.TaintingChecker -Astubs=src/main/astubs
